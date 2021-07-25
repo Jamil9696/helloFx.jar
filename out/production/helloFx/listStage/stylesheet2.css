@@ -1,0 +1,95 @@
+
+
+.root{
+	-fx-font-family: 'JetBrains Mono';
+	-fx-background-color: rgba(0,0,0, 0.2);
+	-fx-background-image: url("genf.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: stretch;
+}
+.vbox{
+	-fx-fill-width: true ;
+	-fx-padding: 0.0 0.0 8.0px 0.0;
+}
+.hbox1{
+   	-fx-font-size: 20px;
+   	-fx-font-weight: bold;
+   	-fx-background-color: rgba(0,0,0, 0.6);
+	-fx-fill-width: true;
+	-fx-spacing: 0;
+    -fx-padding: 0 5px 0 5px;
+     /*  top, right, bottom, and left */
+
+}
+.hbox2{
+	/*  top, right, bottom, and left */
+	
+	-fx-spacing: 50px;
+	-fx-background-color: rgba(0,0,0, 0.6);
+    -fx-spacing: 2.0px;
+    -fx-padding: 2.0px 2.0px 4.0px 2.0px;
+}
+
+.hbox3{
+/*  top, right, bottom, and left */
+    -fx-text-fill: white;
+    -fx-padding: 30.0px 140.0px 0.0 10.0px;
+    -fx-spacing: 50.0px;
+    -fx-alignment: TOP_LEFT;
+}
+.hbox4{
+    -fx-alignment: BOTTOM_RIGHT;
+    -fx-spacing: 2.0px;
+    -fx-padding: 10.0px 20.0px 10.0px 23.0em;
+	-fx-min-width: 700px;
+}
+
+.text1{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0.0 , 0 );
+	-fx-fill: white;
+	-fx-font-size: 15px;
+   	-fx-font-weight: bold;
+}
+
+.label{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0.0 , 0 );
+	-fx-text-fill: white;
+	-fx-pref-width: 220px;
+	-fx-font-size: 20px;
+   	-fx-font-weight: bold;
+}
+
+.button{
+	 /*  top, right, bottom, and left */
+
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 1.0px 0.5px 1.0px 0.5px;
+    -fx-pref-width: 305.0px;
+    -fx-min-width: 130.0px;
+	-fx-border-insets: 5px 0 0 0;
+}
+
+.first.button{
+    -fx-border-width: 1px 0.5px 1px 0.5px;
+}
+
+.button:hover{
+    -fx-background-color: rgba(255,255,255, 0.7);
+    -fx-text-fill: rgba(0,0,0,0.9);
+    -fx-background-insets: 6px 0 0 0;
+}
+.textfield{
+	-fx-font-size: 15px;
+	-fx-pref-width: 305.0px;
+	-fx-prompt-text-fill: rgba(255,255,255,0.7);
+	-fx-background-color: rgba(255,255,255, 0.5);
+	-fx-text-fill: rgba(0,0,0);
+}
+.listDe{
+	-fx-text-fill: black;
+}
+.listFr{
+	-fx-text-fill: black;	
+}

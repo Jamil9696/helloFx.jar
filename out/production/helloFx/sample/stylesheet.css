@@ -1,0 +1,40 @@
+.root{
+
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-background-image: url("paris.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: stretch;
+	
+}
+.button{
+	
+	-fx-pref-width: 150.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-radius: 5px;
+	-fx-border-insets: 5px;
+	-fx-background-insets: 5px;
+	
+	
+	}
+.button:hover
+{
+   
+   -fx-background-color: rgba(255,255,255, 0.7);
+   -fx-text-fill: rgba(0,0,0,0.9);
+   -fx-border-color: rgba(0,0,0,0.9);
+   -fx-background-insets: 6px;
+   
+}
+.hbox{
+	
+    -fx-background-radius: 5px;
+    -fx-alignment: CENTER;
+   /* TOP LEFT BOTTOM RIGHT */
+    -fx-padding: 50px;
+    -fx-hgap: 0.5em;
+    
+}

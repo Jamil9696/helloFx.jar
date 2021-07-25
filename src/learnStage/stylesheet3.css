@@ -1,0 +1,67 @@
+.root{
+
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-background-image: url("tanger.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: stretch;
+	
+}
+.button{
+ 	-fx-background-color: transparent;
+ 	-fx-pref-width: 180px;
+ 	-fx-text-fill: rgba(255,255,255, 0.9);
+ 	-fx-border-color: rgba(255,255,255, 0.9);
+}
+.button:hover{
+	
+    -fx-background-color: rgba(255,255,255, 0.7);
+    -fx-text-fill: rgba(0,0,0,0.9);
+   
+}
+.combo box{
+	 -fx-background-color: rgba(255,255,255,0.8);
+	 -fx-pref-width: 230px;
+}
+.choice box{
+	-fx-background-color: rgba(255,255,255,0.8);
+	-fx-pref-width: 230px;
+}
+
+.hbox1{
+	 -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0.0 , 0 );
+	 -fx-alignment: TOP_RIGHT;
+	 /* TOP RIGHT BOTTOM LEFT */
+	 -fx-padding: 20.0px 5.0px 10.0px 5.0px;	 
+	 -fx-background-color: rgba(0,0,0, 0.6);
+	 -fx-spacing: 5px;
+}
+.vboxCenter{
+	-fx-padding: 50px;
+	-fx-alignment: CENTER;
+	-fx-spacing: 5px;
+	-fx-min-width: 360px;
+	-fx-pref-width: 360px;
+	-fx-background-color: rgba(0,0,0,0.6);
+}
+
+.hbox2{
+	 /* TOP RIGHT BOTTOM LEFT */
+	-fx-padding: 130px 50.0px 20.0px 50.0px;
+	-fx-alignment: center;
+}
+.hbox3{
+	-fx-alignment: CENTER;
+	-fx-spacing: 5px;
+	
+}
+.showText{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0.0 , 0 );
+	-fx-padding: 50px;
+	-fx-fill: white;
+}
+.vbox{
+	 -fx-spacing: 30px;
+}
+
